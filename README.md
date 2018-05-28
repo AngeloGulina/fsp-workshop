@@ -1,5 +1,5 @@
 # fsp-workshop
-> 🗒 Excercises for Functional Programming Style
+> 🗒 Excercises for Functional Style Programming
 
 ## Requirements
 The only requirement for this to run is to have Node.js > 8
