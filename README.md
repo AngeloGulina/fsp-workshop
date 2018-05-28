@@ -25,8 +25,8 @@ In order not to confuse with results, only the basic exercise is run. It refers 
 All the exercises are under the `exercises` folder. Let's take `type-of-fruit.js`.
 
 Every exercise has a set of data prepared for you. You will need to inspect to pass the challenge.
-It'll be bit like childood math.
-You can think each step as if it were a question: _Alba has a basket of candies. How many blue candies are there? And so on..._)
+
+It'll be bit like childood math. You can think each step as if it were a question: _Alba has a basket of candies. How many blue candies are there? And so on..._
 
 So, the file starts witht the data:
 ```javascript
@@ -53,8 +53,11 @@ module.exports = {
 In order to solve the challenge, you will need to set those variables to the correct answer, staritng from the given data.
 It's up to you how you get to the result.
 
-Of course, the aim of this is to prove a _Functional Programming Style_ more useful and ergonomic.
-It can also be used to practice a bit.
+The aim of this is to prove a _Functional Programming Style_ more useful and ergonomic.
+
+This is the reason I've provided you with some typical method used in this style to be found in `utils/fx.js`. Be aware that those are not at all a sufficient and you will need to figure out how to use them (I've tried to add most meaningful documentation).
+
+If you wish to have an overview of more complete libraries and helpers for that, check [ramda](https://ramdajs.com/) (it's also good for inspiration).
 
 Have fun 🙌
 
