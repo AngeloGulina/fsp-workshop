@@ -11,6 +11,8 @@ const {
     compose
 } = require('../utils/fx');
 
+const heavy = 28;
+
 // Override these w/ implementation: you can use both appleList or fruitList
 
 let onlyRedApples;
@@ -18,11 +20,12 @@ let onlyGreenApples;
 
 // Override these w/ implementation: use fruitList
 
-let onlyYellowLemons;
-
 let onlyHeavyFruits;
 let onlyApples;
 let onlyLemons;
+
+let onlyYellowLemons;
+
 let onlyHeavyApples;
 let onlyHeavyRedApples;
 let onlyLightApples;
