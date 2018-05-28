@@ -12,7 +12,7 @@ const {
     onlyHeavyRedApples = [],
     onlyLightApples = [],
     onlyLightGreenApples = [],
-} = require('../excercises/type-of-fruit');
+} = require('../exercises/type-of-fruit');
 
 
 console.log('\n\n\n >>>>>> 🏁  Start tests.\n\n');

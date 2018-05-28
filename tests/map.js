@@ -5,7 +5,7 @@ const {
     totalBerriesWeight = 0,
     timeToEatSimple = 0,
     timeToEat = null,
-} = require('../excercises/eating-fruit');
+} = require('../exercises/eating-fruit');
 
 console.log('\n\n\n >>>>>> 🏁  Start tests.\n\n');
 

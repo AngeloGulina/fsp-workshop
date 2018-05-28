@@ -20,12 +20,13 @@ In order not to confuse with results, only the basic exercise is run. It refers 
         ...
 ```
 
-### An example on how to solve the excercises
+### How to solve the exercises
 
-Go to `type-of-fruit.js`.
+All the exercises are under the `exercises` folder. Let's take `type-of-fruit.js`.
 
 Every exercise has a set of data prepared for you. You will need to inspect to pass the challenge.
-(It'll be bit like childood math, something along the lines of: _Lucy has a basket of candies. How many blue candies are there?_)
+It'll be bit like childood math.
+You can think each step as if it were a question: _Alba has a basket of candies. How many blue candies are there? And so on..._)
 
 So, the file starts witht the data:
 ```javascript
