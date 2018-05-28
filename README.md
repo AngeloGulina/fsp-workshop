@@ -1,7 +1,7 @@
 # fsp-workshop
 > 🗒 Excercises for Functional Programming Style
 
-## Requirement
+## Requirements
 The only requirement for this to run is to have Node.js > 8
 
 ## Running the exercises
@@ -11,7 +11,14 @@ To run the exercises just type
 node index.js
 ```
 
-In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruit.js`.
+In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruit.js`, which will look like:
+
+```sh
+>>>>>> 🏁  Start tests.
+        🛑  Oops! A bug is eating Red Apples... 🍎 ... 🐛
+        ...
+        ...
+```
 
 ### An example on how to solve the excercises
 
