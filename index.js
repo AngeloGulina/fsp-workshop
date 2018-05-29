@@ -1,2 +1,2 @@
-// require('./tests/map');
+require('./tests/map');
 require('./tests/filter');

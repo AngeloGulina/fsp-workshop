@@ -19,6 +19,8 @@ let timeToEat; // a function of number of berries per the time const per the bit
 
 // Start implementation
 
+totalBerries = berries.reduce((result, val) => result + val.count, 0);
+
 module.exports = {
     totalBerries,
     totalBerriesWeight,
