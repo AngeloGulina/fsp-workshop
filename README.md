@@ -11,7 +11,7 @@ To run the exercises just type
 node index.js
 ```
 
-In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruit.js`, which will look like:
+In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruit.ts`, which will look like:
 
 ```sh
 >>>>>> 🏁  Start tests.
@@ -22,7 +22,7 @@ In order not to confuse with results, only the basic exercise is run. It refers 
 
 ### How to solve the exercises
 
-All the exercises are under the `exercises` folder. Let's take `type-of-fruit.js`.
+All the exercises are under the `exercises` folder. Let's take `type-of-fruit.ts`.
 
 Every exercise has a set of data prepared for you. You will need to inspect to pass the challenge.
 
@@ -55,7 +55,7 @@ It's up to you how you get to the result.
 
 The aim of this is to prove a _Functional Programming Style_ more useful and ergonomic.
 
-This is the reason I've provided you with some typical method used in this style to be found in `utils/fx.js`. Be aware that those are not at all a sufficient and you will need to figure out how to use them (I've tried to add most meaningful documentation).
+This is the reason I've provided you with some typical method used in this style to be found in `utils/fx.ts`. Be aware that those are not at all a sufficient and you will need to figure out how to use them (I've tried to add most meaningful documentation).
 
 If you wish to have an overview of more complete libraries and helpers for that, check [ramda](https://ramdajs.com/) (it's also good for inspiration).
 

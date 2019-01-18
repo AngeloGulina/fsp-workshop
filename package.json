@@ -1,0 +1,28 @@
+{
+  "name": "fsp-workshop",
+  "version": "0.0.9",
+  "description": "A repo with some Functional Programm-ish exercises",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "./node_modules/.bin/tsc",
+    "test": "node ./compiled/tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloGulina/fsp-workshop.git"
+  },
+  "keywords": [
+    "fps",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Angelo Gulina <gulina.angelo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloGulina/fsp-workshop/issues"
+  },
+  "homepage": "https://github.com/AngeloGulina/fsp-workshop#readme",
+  "dependencies": {
+    "typescript": "3.2.2"
+  }
+}
