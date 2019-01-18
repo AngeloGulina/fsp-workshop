@@ -8,10 +8,10 @@ The only requirement for this to run is to have Node.js > 8
 To run the exercises just type
 
 ```sh
-node index.js
+npm test
 ```
 
-In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruit.ts`, which will look like:
+In order not to confuse with results, only the basic exercise is run. It refers to `type-of-fruits.ts`, which will look like:
 
 ```sh
 >>>>>> 🏁  Start tests.
@@ -22,35 +22,35 @@ In order not to confuse with results, only the basic exercise is run. It refers 
 
 ### How to solve the exercises
 
-All the exercises are under the `exercises` folder. Let's take `type-of-fruit.ts`.
+All the exercises are under the `exercises` folder. Let's take `type-of-fruits.ts`.
 
 Every exercise has a set of data prepared for you. You will need to inspect to pass the challenge.
 
-It'll be bit like childood math. You can think each step as if it were a question: _Alba has a basket of candies. How many blue candies are there? And so on..._
+It'll be bit like childhood math. You can think each step as if it were a question: _Alba has a basket of candies. How many blue candies are there? And so on..._
 
-So, the file starts witht the data:
-```javascript
-const {
+So, the file starts with the data:
+```typescript
+import {
     applesList,
     fruitsList,
-} = require('./res/fruitsLists');
+} from '../exercises/type-of-fruits';
 ```
 
 Below, you will see some variables declared (default to `undefined`) and then exported. They will be used to check the results.
-```javascript
+```typescript
 let onlyRedApples;
 let onlyGreenApples;
 
 // ...
 
-module.exports = {
+export {
     onlyGreenApples,
     onlyRedApples,
     // ...
 };
 ```
 
-In order to solve the challenge, you will need to set those variables to the correct answer, staritng from the given data.
+In order to solve the challenge, you will need to set those variables to the correct answer, starting from the given data.
 It's up to you how you get to the result.
 
 The aim of this is to prove a _Functional Programming Style_ more useful and ergonomic.
@@ -66,8 +66,3 @@ Have fun 🙌
 I believe in Unicorns 🦄
 Support [me](http://www.paypal.me/angelogulina/2), if you do the same.
 
-## License
-
-[MIT License](LICENSE)
-
-Copyright (c) 2018 A (from Sicily)

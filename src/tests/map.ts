@@ -5,7 +5,7 @@ import {
     totalBerriesWeight,
     timeToEatSimple,
     timeToEat,
-} from '../exercises/eating-fruit';
+} from '../exercises/eating-fruits';
 
 console.log('\n\n\n >>>>>> 🏁  Start tests.\n\n');
 

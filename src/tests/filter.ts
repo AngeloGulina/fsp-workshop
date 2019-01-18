@@ -12,7 +12,7 @@ import {
     onlyHeavyRedApples,
     onlyLightApples,
     onlyLightGreenApples,
-} from '../exercises/type-of-fruit';
+} from '../exercises/type-of-fruits';
 
 
 console.log('\n\n\n >>>>>> 🏁  Start tests.\n\n');
