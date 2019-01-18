@@ -7,6 +7,7 @@
     "outDir": "./compiled"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./src/examples/promises-before.js"
   ]
 }
